@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: #faf9f7;">
+    <div id="conteyner" style="text-align: center;">
+        <div id="content">
+            <h1 style="display: inline;">Sign up | </h1>
+            <span style="color: #a3afc6;">Individual Edition</span>
+            <p>Sign up as a teacher? <a href="#">Use this form</a></p>
+            <p>Sign up with <a href="#">class code</a></p>
+
+            <div>
+                <button class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/24px-Google_%22G%22_Logo.svg.png" width="20" height="20" alt="Google logo"> Sign up with Google</button>
+                <button class="logo"><img src="https://i.pinimg.com/originals/2b/7d/34/2b7d341032451c10213011e16e3acc20.png" width="20" height="20" alt="Clever logo"> Sign up with Clever</button>
+                <button class="logo"><img src="https://logosandtypes.com/wp-content/uploads/2020/10/office-365.svg" width="20" height="20" alt="Office logo"> Sign up with Office 365</button>
+            </div>
+            <div>
+                <div class="line"></div>
+                <span>or</span>
+                <div class="line"></div>
+            </div>
+            
+            <form action="#">
+                <div><label for="fname">First Name</label></div>
+                <input type="text" id="fname" name="fname" required>
+                
+                <div><label for="lname">Last Name <span class="opt">(Optional)</span></label></div>
+                <input type="text" id="lname" name="lname">
+
+                <div><label for="username/email">Username/Email</label></div>
+                <input type="text" id="username/email" name="username/email" required>
+
+                <div><label for="password">Password</label></div>
+                <input type="password" id="password" required>
+
+                <div>
+                    <input type="checkbox" id="privacy" required>
+                    <label for="privacy" style="font-size: 13px">I agree with edclub <a href="#">terms of use</a> and <a href="#">privacy policy</a>.</label>
+                </div>
+                
+
+                <input id="submit" type="submit" value="Sign up">
+            </form>
+
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+
+    </div>
+</body>
+</html>
